@@ -8,7 +8,7 @@ const kelvinInput = document.querySelector('#kelvin > input');
 function celciusToFahrenheitToKelvin() {
     const cTemp = parseFloat(celciusInput.value);
     const fTemp = (cTemp * (9/5)) + 32;
-    const kTemp = cTemp + 273.5;
+    const kTemp = cTemp + 273.15;
     fahrenheitInput.value = fTemp;
     kelvinInput.value = kTemp;
 
